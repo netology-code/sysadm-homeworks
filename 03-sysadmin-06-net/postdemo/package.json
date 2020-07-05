@@ -1,0 +1,12 @@
+{
+  "name": "postdemo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "body-parser": "^1.17.0",
+    "package.json": "^2.0.1"
+  }
+}
