@@ -95,7 +95,7 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 1. Создайте новую ветку `fix` базируясь на этом коммите `git switch -c fix`.
 1. Отправьте новую ветку в репозиторий на гитхабе `git push -u origin fix`.
 1. Посмотрите, как визуально выглядит ваша схема коммитов: https://github.com/YOUR_ACCOUNT/devops-netology/network. 
-1. Теперь измените содеражние файла `README.md`, добавив новую строчку.
+1. Теперь измените содержание файла `README.md`, добавив новую строчку.
 1. Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/YOUR_ACCOUNT/devops-netology/network 
 и как изменится вывод команды `git log`.
 
