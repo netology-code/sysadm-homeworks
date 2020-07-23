@@ -31,7 +31,7 @@
 
 3.3. [х] [Операционные системы](https://github.com/netology-code/sysadm-homeworks/tree/master/03-sysadmin-03-os) 
 
-3.4. [ ] [Файловые системы](03-sysadmin-04-fs.md) 
+3.4. [х] [Файловые системы](https://github.com/netology-code/sysadm-homeworks/tree/master/03-sysadmin-04-fs) 
 
 3.5. [x] [Компьютерные сети (лекция 1)](03-sysadmin-05-net/03-sysadmin-05-net_pt1.md)
 
