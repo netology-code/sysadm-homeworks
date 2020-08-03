@@ -37,7 +37,7 @@
 
 3.6. [ ] [Компьютерные сети (лекция 2)](03-sysadmin-06-net_pt2.md)
 
-3.7. [ ] [Элементы безопасности информационных систем](03-sysadmin-07-security.md)
+3.7. [х] [Элементы безопасности информационных систем](https://github.com/netology-code/sysadm-homeworks/tree/master/03-sysadmin-07-security)
 
 ## Модуль 4. Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
 
