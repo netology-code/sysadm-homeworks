@@ -1,5 +1,6 @@
 # Домашние задания по курсу «DevOps и системное администрирование»
 
+
 В этом репозитории расположены ваши домашние задания к каждой лекции. 
 
 Обязательными к выполнению являются задачи без указания звездочки. Их выполнение необходимо для получения зачета и диплома о профессиональной переподготовке.
@@ -28,20 +29,20 @@
 
 3.2. [x] [Работа в терминале (лекция 2)](03-sysadmin-02-terminal/README.md)
 
-3.3. [ ] [Операционные системы](03-sysadmin-03-os.md) 
+3.3. [х] [Операционные системы](https://github.com/netology-code/sysadm-homeworks/tree/master/03-sysadmin-03-os) 
 
-3.4. [ ] [Файловые системы](03-sysadmin-04-fs.md) 
+3.4. [х] [Файловые системы](https://github.com/netology-code/sysadm-homeworks/tree/master/03-sysadmin-04-fs) 
 
 3.5. [x] [Компьютерные сети (лекция 1)](03-sysadmin-05-net/03-sysadmin-05-net_pt1.md)
 
-3.6. [ ] [Компьютерные сети (лекция 2)](03-sysadmin-06-net_pt2.md)
+3.6. [х] [Компьютерные сети (лекция 2)](https://github.com/netology-code/sysadm-homeworks/tree/master/03-sysadmin-06-net)
 
-3.7. [ ] [Элементы безопасности информационных систем](03-sysadmin-07-security.md)
+3.7. [х] [Элементы безопасности информационных систем](https://github.com/netology-code/sysadm-homeworks/tree/master/03-sysadmin-07-security)
 
 ## Модуль 4. Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
 
-4.1. [ ] [Командная оболочка Bash: практические навыки](04-script-01-bash.md)
+4.1. [х] [Командная оболочка Bash: практические навыки](https://github.com/netology-code/sysadm-homeworks/tree/master/04-script-01-bash)
 
-4.2. [ ] [Использование Python для решения типовых DevOps задач](04-script-02-py.md)
+4.2. [x] [Использование Python для решения типовых DevOps задач](https://github.com/netology-code/sysadm-homeworks/tree/master/04-script-02-py)
 
-4.3. [ ] [Языки разметки JSON и YAML](04-script-03-yaml.md)
+4.3. [x] [Языки разметки JSON и YAML](https://github.com/netology-code/sysadm-homeworks/tree/master/04-script-03-yaml)
