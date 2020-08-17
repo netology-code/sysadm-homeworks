@@ -46,3 +46,7 @@
 4.2. [x] [Использование Python для решения типовых DevOps задач](https://github.com/netology-code/sysadm-homeworks/tree/master/04-script-02-py)
 
 4.3. [x] [Языки разметки JSON и YAML](https://github.com/netology-code/sysadm-homeworks/tree/master/04-script-03-yaml)
+
+## Дополнительные материалы
+
+1. [x] [Модуль 4. Скриптовые языки и языки разметки: Python, Bash, YAML, JSON](https://github.com/netology-code/sysadm-homeworks/tree/master/04-script-03-yaml/additional-info)
