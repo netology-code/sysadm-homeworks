@@ -19,7 +19,7 @@
 
 2.2. [x] [Основы Git](02-git-02-base/README.md)
 
-2.3. [x] [Ветвления в Git. Хранилища репозиториев](02-git-03-branching/README.md)
+2.3. [x] [Ветвления в Git](02-git-03-branching/README.md)
 
 2.4. [x] [Инструменты Git](02-git-04-tools/README.md)
 
