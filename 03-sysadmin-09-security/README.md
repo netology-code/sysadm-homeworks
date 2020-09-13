@@ -1,7 +1,13 @@
 # Домашнее задание к занятию "3.9. Элементы безопасности информационных систем"
 
-1. Установите [Hashicorp Vault](https://learn.hashicorp.com/vault) в виртуальной машине Vagrant/VirtualBox.
-1. Запустить Vault-сервер в dev-режиме.
+1. Установите [Hashicorp Vault](https://learn.hashicorp.com/vault) в виртуальной машине Vagrant/VirtualBox. Это не является обязательным для выполнения задания, но для лучшего понимания что происходит при выполнении команд (посмотреть результат в UI), можно по аналогии с netdata из прошлых лекций пробросить порт Vault на localhost:
+
+    ```bash
+    config.vm.network "forwarded_port", guest: 8200, host: 8200
+    ```
+
+    Однако, обратите внимание, что только-лишь проброса порта не будет достаточно – по-умолчанию Vault слушает на 127.0.0.1; добавьте к опциям запуска `-dev-listen-address="0.0.0.0:8200"`.
+1. Запустить Vault-сервер в dev-режиме (дополнив ключ `-dev` упомянутым выше `-dev-listen-address`, если хотите увидеть UI).
 1. Используя [PKI Secrets Engine](https://www.vaultproject.io/docs/secrets/pki), создайте Root CA и Intermediate CA.
 Обратите внимание на [дополнительные материалы](https://learn.hashicorp.com/vault/secrets-management/sm-pki-engine) по созданию CA в Vault, если с изначальной инструкцией возникнут сложности.
 1. Согласно этой же инструкции, подпишите Intermediate CA csr на сертификат для тестового домена (например, `netology.example.com` если действовали согласно инструкции).
