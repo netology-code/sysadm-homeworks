@@ -6,10 +6,19 @@
 
 1. В вашем основном окружении подготовьте удобный для дальнейшей работы терминал. Можно предложить:
 
-	* iTerm 2 в Mac OS X
-	* WSL2 в Windows с Windows Terminal (MobaXterm, Hyper и т.д.)
+	* iTerm2 в Mac OS X
+	* Windows Terminal в Windows
 	* выбрать цветовую схему, размер окна, шрифтов и т.д.
 	* почитать о кастомизации PS1/применить при желании.
+
+	Несколько популярных проблем:
+	* Добавьте Vagrant в правила исключения перехватывающих трафик для анализа антивирусов, таких как Kaspersky, если у вас возникают связанные с SSL/TLS ошибки,
+	* MobaXterm может конфликтовать с Vagrant в Windows,
+	* Vagrant плохо работает с директориями с кириллицей (может быть вашей домашней директорией), тогда можно либо изменить [VAGRANT_HOME](https://www.vagrantup.com/docs/other/environmental-variables#vagrant_home), либо создать в системе профиль пользователя с английским именем,
+	* VirtualBox конфликтует с Windows Hyper-V и его необходимо [отключить](https://www.vagrantup.com/docs/installation#windows-virtualbox-and-hyper-v),
+	* [WSL2](https://docs.microsoft.com/ru-ru/windows/wsl/wsl2-faq#does-wsl-2-use-hyper-v-will-it-be-available-on-windows-10-home) использует Hyper-V, поэтому с ним VirtualBox также несовместим,
+	* аппаратная виртуализация (Intel VT-x, AMD-V) должна быть активна в BIOS,
+	* в Linux при установке [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads) может дополнительно потребоваться пакет `linux-headers-generic` (debian-based) / `kernel-devel` (rhel-based).
 
 1. С помощью базового файла конфигурации запустите Ubuntu 20.04 в VirtualBox посредством Vagrant:
 
@@ -22,8 +31,6 @@
 		```
 
 	* Выполнение в этой директории `vagrant up` установит провайдер VirtualBox для Vagrant, скачает необходимый образ и запустит виртуальную машину.
-
-	* Добавьте Vagrant в правила исключения антивирусов, перехватывающих трафик для анализа, таких как Kaspersky, если у вас возникают связанные с SSL/TLS ошибки.
 
 	* `vagrant suspend` выключит виртуальную машину с сохранением ее состояния (т.е., при следующем `vagrant up` будут запущены все процессы внутри, которые работали на момент вызова suspend), `vagrant halt` выключит виртуальную машину штатным образом.
 
