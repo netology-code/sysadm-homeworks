@@ -135,7 +135,7 @@ Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 указав слева от нижнего `fixup`. 
 В результате получаем что-то подобное:
 ```bash
-$ git rebase -i origin/main
+$ git rebase -i main
 Auto-merging branching/rebase.sh
 CONFLICT (content): Merge conflict in branching/rebase.sh
 error: could not apply dc4688f... git 2.3 rebase @ instead *
