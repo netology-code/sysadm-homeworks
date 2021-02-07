@@ -212,8 +212,18 @@ To github.com:andrey-borue/devops-netology.git
 Branch 'git-rebase' set up to track remote branch 'git-rebase' from 'origin'.
 ```
 
-Теперь можно смержить ветку `git-rebase` в main без конфликтов. 
+Теперь можно смержить ветку `git-rebase` в main без конфликтов и без дополнительного мерж-комита простой перемоткой. 
+```
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
 
+$ git merge git-rebase
+Updating 6158b76..45893d1
+Fast-forward
+ branching/rebase.sh | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+```
 
 Цель задания - попробовать на практике то, как выглядит решение конфликтов.
 Обычно при нормальном ходе разработки выполнять `rebase` достаточно просто, 
