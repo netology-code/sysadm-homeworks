@@ -9,7 +9,6 @@
 Если у вас уже установлен любой другой продукт от JetBrains,то можно использовать его. 
 1. Установить плагины:
     - Terraform,
-    - BashSupport,
     - MarkDown,
     - Yaml/Ansible Support,
     - Jsonnet.
