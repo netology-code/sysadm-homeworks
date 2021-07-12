@@ -37,7 +37,7 @@
 
 3.6. [x] [Компьютерные сети (лекция 1)](https://github.com/netology-code/sysadm-homeworks/tree/devsys10/03-sysadmin-06-net)
 
-3.7. [х] [Компьютерные сети (лекция 2)](https://github.com/netology-code/sysadm-homeworks/tree/master/03-sysadmin-07-net)
+3.7. [х] [Компьютерные сети (лекция 2)](https://github.com/netology-code/sysadm-homeworks/tree/devsys10/03-sysadmin-07-net)
 
 3.8. [х] [Компьютерные сети (лекция 3)](https://github.com/netology-code/sysadm-homeworks/tree/master/03-sysadmin-08-net)
 
