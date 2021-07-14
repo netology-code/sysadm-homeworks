@@ -39,7 +39,7 @@
 
 3.7. [х] [Компьютерные сети (лекция 2)](https://github.com/netology-code/sysadm-homeworks/tree/devsys10/03-sysadmin-07-net)
 
-3.8. [х] [Компьютерные сети (лекция 3)](https://github.com/netology-code/sysadm-homeworks/tree/master/03-sysadmin-08-net)
+3.8. [х] [Компьютерные сети (лекция 3)](https://github.com/netology-code/sysadm-homeworks/blob/devsys10/03-sysadmin-08-net/README.md)
 
 3.9. [х] [Элементы безопасности информационных систем](https://github.com/netology-code/sysadm-homeworks/tree/master/03-sysadmin-09-security)
 
