@@ -31,7 +31,7 @@
 Вы пришли на новое место работы или приобрели новый компьютер.
 Первым делом надо настроить окружение для дальнейшей работы. 
 
-1. Установить Py Charm Community Edition: https://www.jetbrains.com/ru-ru/pycharm/download/ - это бесплатная версия IDE. 
+1. Установить PyCharm Community Edition: https://www.jetbrains.com/ru-ru/pycharm/download/ - это бесплатная версия IDE. 
 Если у вас уже установлен любой другой продукт от JetBrains,то можно использовать его. 
 1. Установить плагины:
     - Terraform,
