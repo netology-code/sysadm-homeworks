@@ -39,7 +39,7 @@
     - Yaml/Ansible Support,
     - Jsonnet.
 1. Склонировать текущий репозиторий или просто создать файлы для проверки плагинов:
-    - [netology.tf](netology.tf) – терраформ,
+    - [netology.tf](netology.tf) – terraform,
     - [netology.sh](netology.sh) – bash,
     - [netology.md](netology.md) – markdown, 
     - [netology.yaml](netology.yaml) – yaml,
