@@ -87,4 +87,5 @@
 [Как запустить  Safari в режиме инкогнито ](https://support.apple.com/ru-ru/guide/safari/ibrw1069/mac)
 
 Любые вопросы по решению задач задавайте в чате Slack.
+
 ---
