@@ -1,3 +1,4 @@
+# Автор: Николай Мокров - DEVOPS-22
 local k = (import 'ksonnet-util/kausal.libsonnet');
 
 {
