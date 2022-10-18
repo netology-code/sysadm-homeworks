@@ -19,12 +19,16 @@
 5. Для проверки домашнего задания преподавателем отправьте ссылку на ваш документ в личном кабинете.
 6. Любые вопросы по решению задач задавайте в чате учебной группы.
 
-----
 
 ### Инструменты и дополнительные материалы, которые пригодятся для выполнения задания
 
 1.  [Py Charm Community Edition](https://www.jetbrains.com/ru-ru/pycharm/download/)
-2.  [Visual Studio Code](https://code.visualstudio.com/Download)
+2.  [Visual Studio Code](https://code.visualstudio.com/Download)   
+ 
+ 
+----     
+     
+     
 
 ## Задание 1. Подготовка рабочей среды
 
