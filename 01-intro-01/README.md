@@ -29,9 +29,9 @@
 
 1. Установить [Py Charm Community Edition](https://www.jetbrains.com/ru-ru/pycharm/download/) - это бесплатная версия IDE.   
 В качестве альтернативы можно установить [Visual Studio Code](https://code.visualstudio.com/Download
-) и дальнейшие шаги проделать с нём. Таким образом вы сможете выбрать для себя более удобный инструмент.
+) и дальнейшие шаги проделать с ним. Таким образом вы сможете выбрать для себя более удобный инструмент.
 
-   Далее для примера будут приведен скриншоты из PyCharm.
+   Далее для примера будут приведены скриншоты из PyCharm.
 
 2. Установить плагины:
     - Terraform,
@@ -39,19 +39,19 @@
     - Yaml/Ansible Support,
     - Jsonnet.
 3. Склонировать текущий репозиторий (команда `git clone`) или просто создать файлы для проверки плагинов:
-    - [netology.tf](netology.tf) – терраформ,
+    - [netology.tf](netology.tf) – terraform,
     - [netology.sh](netology.sh) – bash,
     - [netology.md](netology.md) – markdown, 
     - [netology.yaml](netology.yaml) – yaml,
     - [netology.jsonnet](netology.jsonnet) – jsonnet.
 4. Убедитесь, что работает подсветка синтаксиса, файлы должны выглядеть вот так:
-    - Terraform: ![Терраформ](img/terraform.png)
+    - Terraform: ![Terraform](img/terraform.png)
     - Bash: ![bahs](img/bash.png)
     - Markdown: ![markdown](img/markdown.png)
     - Yaml: ![Yaml](img/yaml.png)
     - Jsonnet: ![Jsonnet](img/jsonnet.png)
 
-*В качестве выполненного задания приведите скриншоты установленной IDE с плагинами в файле readme.md собственного репозитория в github или google doc*
+*В качестве выполненного задания приведите скриншоты установленной IDE с плагинами в файле readme.md собственного репозитория в GitHub или google doc*
 
 ----
 
