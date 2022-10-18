@@ -33,15 +33,15 @@
 
 3.4. [х] [Операционные системы (лекция 2)](03-sysadmin-04-os/README.md)
 
-3.5. [х] [Файловые системы](https://github.com/netology-code/sysadm-homeworks/tree/devsys10/03-sysadmin-05-fs)
+3.5. [х] [Файловые системы](03-sysadmin-05-fs/README.md)
 
-3.6. [x] [Компьютерные сети (лекция 1)](https://github.com/netology-code/sysadm-homeworks/tree/devsys10/03-sysadmin-06-net)
+3.6. [x] [Компьютерные сети (лекция 1)](03-sysadmin-06-net/README.md)
 
-3.7. [х] [Компьютерные сети (лекция 2)](https://github.com/netology-code/sysadm-homeworks/tree/devsys10/03-sysadmin-07-net)
+3.7. [х] [Компьютерные сети (лекция 2)](03-sysadmin-07-net/README.md)
 
-3.8. [х] [Компьютерные сети (лекция 3)](https://github.com/netology-code/sysadm-homeworks/blob/devsys10/03-sysadmin-08-net/README.md)
+3.8. [х] [Компьютерные сети (лекция 3)](03-sysadmin-08-net/README.md)
 
-3.9. [х] [Элементы безопасности информационных систем](https://github.com/netology-code/sysadm-homeworks/tree/devsys10/03-sysadmin-09-security)
+3.9. [х] [Элементы безопасности информационных систем]()
 
 ## Блок 4. Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
 
