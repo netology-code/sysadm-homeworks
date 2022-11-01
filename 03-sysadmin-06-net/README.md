@@ -23,7 +23,7 @@
 
 1. Полезным дополнением к обозначенным выше утилитам будет пакет net-tools. Установить его можно с помощью команды `apt install net-tools`.
 2. RFC протокола HTTP/1.0, в частности [страница с кодами ответа](https://www.rfc-editor.org/rfc/rfc1945#page-32).
-3. [Ссылки на остальные RFC для HTTP] (https://blog.cloudflare.com/cloudflare-view-http3-usage/).
+3. [Ссылки на остальные RFC для HTTP](https://blog.cloudflare.com/cloudflare-view-http3-usage/).
 
 ------
 
