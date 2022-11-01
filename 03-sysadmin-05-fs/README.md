@@ -24,8 +24,8 @@
 ### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
 
 1. Разряженные файлы - [sparse](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D0%B6%D1%91%D0%BD%D0%BD%D1%8B%D0%B9_%D1%84%D0%B0%D0%B9%D0%BB)
-2. Подробный анализ производительности RAID - 3-19 страницы https://www.baarf.dk/BAARF/0.Millsap1996.08.21-VLDB.pdf
-3. RAID5 write hole - https://www.intel.com/content/www/us/en/support/articles/000057368/memory-and-storage.html
+2. [Подробный анализ производительности RAID,3-19 страницы](https://www.baarf.dk/BAARF/0.Millsap1996.08.21-VLDB.pdf).
+3. [RAID5 write hole](https://www.intel.com/content/www/us/en/support/articles/000057368/memory-and-storage.html).
 
 
 ------
