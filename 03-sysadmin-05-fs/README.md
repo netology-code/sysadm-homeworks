@@ -32,17 +32,35 @@
 
 1. Сделайте `vagrant destroy` на имеющийся инстанс Ubuntu. Замените содержимое Vagrantfile следующим:
 
-    ```bash
+    ```ruby
+    path_to_disk_folder = './disks'
+
+    host_params = {
+        'disk_size' => 2560,
+        'disks'=>[1, 2],
+        'cpus'=>2,
+        'memory'=>2048,
+        'hostname'=>'sysadm-fs',
+        'vm_name'=>'sysadm-fs'
+    }
     Vagrant.configure("2") do |config|
-      config.vm.box = "bento/ubuntu-20.04"
-      config.vm.provider :virtualbox do |vb|
-        lvm_experiments_disk0_path = "/tmp/lvm_experiments_disk0.vmdk"
-        lvm_experiments_disk1_path = "/tmp/lvm_experiments_disk1.vmdk"
-        vb.customize ['createmedium', '--filename', lvm_experiments_disk0_path, '--size', 2560]
-        vb.customize ['createmedium', '--filename', lvm_experiments_disk1_path, '--size', 2560]
-        vb.customize ['storageattach', :id, '--storagectl', 'SATA Controller', '--port', 1, '--device', 0, '--type', 'hdd', '--medium', lvm_experiments_disk0_path]
-        vb.customize ['storageattach', :id, '--storagectl', 'SATA Controller', '--port', 2, '--device', 0, '--type', 'hdd', '--medium', lvm_experiments_disk1_path]
-      end
+        config.vm.box = "bento/ubuntu-20.04"
+        config.vm.hostname=host_params['hostname']
+        config.vm.provider :virtualbox do |v|
+
+            v.name=host_params['vm_name']
+            v.cpus=host_params['cpus']
+            v.memory=host_params['memory']
+
+            host_params['disks'].each do |disk|
+                file_to_disk=path_to_disk_folder+'/disk'+disk.to_s+'.vdi'
+                unless File.exist?(file_to_disk)
+                    v.customize ['createmedium', '--filename', file_to_disk, '--size', host_params['disk_size']]
+                end
+                v.customize ['storageattach', :id, '--storagectl', 'SATA Controller', '--port', disk.to_s, '--device', 0, '--type', 'hdd', '--medium', file_to_disk]
+            end
+        end
+        config.vm.network "private_network", type: "dhcp"
     end
     ```
 
