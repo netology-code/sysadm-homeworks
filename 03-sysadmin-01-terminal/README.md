@@ -12,7 +12,7 @@
 
 1. Установите средство виртуализации [Oracle VirtualBox](https://www.virtualbox.org/).
 
-1. Установите средство автоматизации [Hashicorp Vagrant](https://www.vagrantup.com/).
+1. Установите средство автоматизации [Hashicorp Vagrant](https://hashicorp-releases.yandexcloud.net/vagrant/).
 
 1. В вашем основном окружении подготовьте удобный для дальнейшей работы терминал. Можно предложить:
 
