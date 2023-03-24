@@ -55,8 +55,8 @@
                 file_to_disk=path_to_disk_folder+'/disk'+disk.to_s+'.vdi'
                 unless File.exist?(file_to_disk)
                     v.customize ['createmedium', '--filename', file_to_disk, '--size', host_params['disk_size']]
+                    v.customize ['storageattach', :id, '--storagectl', 'SATA Controller', '--port', disk.to_s, '--device', 0, '--type', 'hdd', '--medium', file_to_disk]
                 end
-                v.customize ['storageattach', :id, '--storagectl', 'SATA Controller', '--port', disk.to_s, '--device', 0, '--type', 'hdd', '--medium', file_to_disk]
             end
         end
         config.vm.network "private_network", type: "dhcp"
