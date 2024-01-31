@@ -6,5 +6,5 @@
 * [Здесь больше про yaml в ansible, но тем не менее](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
 * [Как работать с YAML в Ruby](https://yaml.org/YAML_for_ruby.html)
 * [Обучение обработки JSON через JavaScript](https://developer.mozilla.org/ru/docs/Learn/JavaScript/Объекты/JSON)
-* [Докуентация про библиотеку JSON](https://docs.python.org/3/library/json.html)
+* [Документация про библиотеку JSON](https://docs.python.org/3/library/json.html)
 * [Документация про библиотеку YAML](https://pyyaml.org/wiki/PyYAMLDocumentation)
