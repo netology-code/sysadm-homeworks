@@ -1,3 +1,6 @@
+
+#Коротенко Александр
+
 #!/usr/bin/env bash
 
 STUDENT_NAME="your name"
